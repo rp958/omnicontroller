@@ -1,8 +1,8 @@
-# OmniRetro Controller
+# OmniController
 
 ## Description
 
-OmniRetro Controller is an Open Hardware /  Open Source, all-in-one controller.
+OmniController is an Open Hardware /  Open Source, all-in-one controller.
 
 It was conceived with retrogaming solutions (such as emulators or FPGA) in mind but can accommodate to modern gaming as well. Its main goal is to cover original button layouts of most of the popular console controllers without having to remap buttons or use different controllers when playing games from different consoles libraries.
 
@@ -34,7 +34,7 @@ Hardware:
 
 ### Making the PCB
 
-Open the *omniretro* project file in KiCAD and export the gerber files to your preferred manufacturer format.
+Open the *omnicontroller* project file in KiCAD and export the gerber files to your preferred manufacturer format.
 
 Bill of materials:
 
@@ -56,7 +56,7 @@ Bill of materials:
 
 ### 3D Printing the case and buttons
 
-You will need to print the following parts (all contained in the FreeCAD omniretro project).
+You will need to print the following parts (all contained in the FreeCAD omnicontroller project).
 
 Buttons:
 - [ ] 1x dpad_bottom
@@ -107,11 +107,11 @@ Please refer to the [**GP2040-CE** installation documentation](https://gp2040-ce
 ### Recommended configuration
 
 1. Unplug your controller.
-2. Download the default [*omniretro_default.gp2040*](conf/omniretro_default.gp2040) configuration file on your computer.
+2. Download the default [*omnicontroller_default.gp2040*](conf/omnicontroller_default.gp2040) configuration file on your computer.
 3. Press and hold the S2 button. While still holding S2, plug the controller to your computer. Your computer should detect your controller as a network adapter.
 4. Open the following URL in your Web Browser: [http://192.168.7.1](http://192.168.7.1). This should bring you to the *Web Configurator* interface.
 5. Go to *Configuration* > *Data Backup and Restoration*.
-6. Click on *Load* and select the *omniretro_default.gp2040* file you downloaded at step 2.
+6. Click on *Load* and select the *omnicontroller_default.gp2040* file you downloaded at step 2.
 7. Click the *REBOOT* button, then *Controller*.
 
 Please refer to the [**GP2040-CE** *Web Configurator* documentation](https://gp2040-ce.info/web-configurator/) for more details.
@@ -138,7 +138,7 @@ Distributed under CERN-OHL-S version 2 or later. See [licence text](https://ohwr
 
 ## Contact
 
-Please [e-mail me](mailto:omniretro@proton.me) if you want to contribute, especially if you have experience in electronics engineering, CAD or manufacturing. 
+Please [e-mail me](mailto:omnicontroller@proton.me) if you want to contribute, especially if you have experience in electronics engineering, CAD or manufacturing.
 
 ## Acknowledgments
 
@@ -148,4 +148,4 @@ Thanks to the [**GP2040-CE**](https://gp2040-ce.info/) development team.
 
 If you want to contribute financially to this project, any help is greatly welcome. This can help me acquire some prototyping equipment and/or spend more time developing this project. To do so, please use my:
 
-[ <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" width="32"/> Ko-fi](https://ko-fi.com/omniretro) page.
+[ <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" width="32"/> Ko-fi](https://ko-fi.com/omnicontroller) page.
