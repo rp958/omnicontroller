@@ -85,9 +85,9 @@ Please note that depending on the quality and precision of your print, you might
 
 1. Take the 2 parts of the D-Pad and glue them together back to back, making sure the two holes are aligned. ![](images/dpad_top.jpg)
 2. Take the case bottom and start to screw the M2 screws from the bottom. ![](images/assembly_step01.jpg)
-2. Insert the middle frame aligning the holes with the M2 screws, the place the L1, L2, R1 and R2 buttons. ![](images/assembly_step02.jpg) 
-3.  Place the PCB aligning the holes with the M2 screws. Adjust the screws so that they are flush with the PCB. ![](images/assembly_step03.jpg)
-4. Take the case top and melt the M2 threaded inserts using the soldering iron. ![](images/assembly_step04.jpg)
+2. Insert the middle frame aligning the holes with the M2 screws, then place the L1, L2, R1 and R2 buttons. ![](images/assembly_step02.jpg)
+3. Place the PCB aligning the holes with the M2 screws. Adjust the screws so that they are flush with the PCB. ![](images/assembly_step03.jpg)
+4. Take the case top and melt the M2 threaded inserts into it using the soldering iron. ![](images/assembly_step04.jpg)
 5. Place all the face controls in their respective place. Make sure the rectangular holes in the back of the joysticks are placed horizontally. ![](images/assembly_step05.jpg)
 6. Turn the back assembly onto the top making sure the joystick axes go into the rectangular holes. ![](images/assembly_step06.jpg)
 7. Slowly screw the M2 screws making sure they are facing the threaded inserts. Screw them firmly but not too tight. ![](images/back.jpg)
@@ -100,7 +100,7 @@ Please note that depending on the quality and precision of your print, you might
 3. Use a pin or an unfolded paperclip to press the reset button at the back of the controller. ![](images/reset.jpg)
 4. While pressing the reset button, plug the controller to your computer. Your computer should detect your controller as a mass storage device.
 5. Copy the *.uf2* firmware file to the controller memory.
-6. Once the file copy is finished to controller should restart and be detected as an XInput (XBox360) controller by default.
+6. Once the file copy is finished, the controller should restart and be detected as an XInput (XBox360) controller by default.
 
 Please refer to the [**GP2040-CE** installation documentation](https://gp2040-ce.info/installation) for more details.
 
