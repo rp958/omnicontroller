@@ -20,9 +20,9 @@ Please note that the double L3 and R3 buttons (the ones on the joysticks and the
 ### Prerequisites
 
 Software:
-- PCB : [**KiCAD**](https://www.kicad.org/)
-- Case and buttons : [**FreeCAD**](https://www.freecad.org/)
-- Firmware : [**GP2040-CE**](https://gp2040-ce.info/)
+- PCB: [**KiCAD**](https://www.kicad.org/)
+- Case and buttons: [**FreeCAD**](https://www.freecad.org/)
+- Firmware: [**GP2040-CE**](https://gp2040-ce.info/)
 
 Hardware:
 - 4x M2x4x3.2 threaded inserts
@@ -139,6 +139,10 @@ Distributed under CERN-OHL-S version 2 or later. See [licence text](https://ohwr
 ## Contact
 
 Please [e-mail me](mailto:omnicontroller@proton.me) if you want to contribute, especially if you have experience in electronics engineering, CAD or manufacturing.
+
+## Attributions
+
+OmniController uses the [SnapEDA Alps RKJXV122400R joystick footprint] (https://www.snapeda.com/parts/RKJXV122400R/ALPS/view-part/).
 
 ## Acknowledgments
 
