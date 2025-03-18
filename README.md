@@ -146,6 +146,7 @@ Thanks to the [**GP2040-CE**](https://gp2040-ce.info/) development team.
 
 ## Help
 
-If you want to contribute financially to this project, any help is greatly welcome. This can help me acquire some prototyping equipment and/or spend more time developing this project. To do so, please use my:
+If you want to help funding this project, any contribution is greatly welcome. This can help me acquire some prototyping equipment and spend more time on the development. To do so, please use my:
 
-[ <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" width="32"/> Ko-fi](https://ko-fi.com/omnicontroller) page.
+- [ <img src="images/patreon_logo.png" width="32"/> Patreon](https://www.patreon.com/omnicontroller) page.
+- [ <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" width="32"/> Ko-fi](https://ko-fi.com/omnicontroller) page.
