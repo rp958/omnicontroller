@@ -1,0 +1,14 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U3";"SOIC-8_5.3x5.3mm_P1.27mm";1;"W25Q128JVSIM";;;
+2;"LeftStick1,RightStick1";"SW_RKJXV122400R";2;"RKJXV122400R";;;
+3;"J1";"USB_C_Receptacle_G-Switch_GT-USB-7010ASV";1;"G-Switch GT-USB-7010ASV";;;
+4;"C8,C6,C13,C5,C7,C14,C4,C9,C3,C12";"C_0805_2012Metric";10;"100n";;;
+5;"Y1";"Crystal_SMD_3225-4Pin_3.2x2.5mm";1;"ABM8-272-T3";;;
+6;"LEFT1,A1,Credit1,B1,SEL1,X1,RIGHT1,DOWN1,Y2,START1,UP1,Menu1,bC1,Z1,L2,BOOT_SEL1,L1,bR2,bR1";"SW_SPST_Omron_B3FS-100xP";19;"SW_Omron_B3FS-1000P";;;
+7;"C1,C2";"C_0805_2012Metric";2;"10u";;;
+8;"R1,R2";"C_0805_2012Metric";2;"27.4";;;
+9;"C10,C11";"C_0805_2012Metric";2;"1u";;;
+10;"U1";"QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm";1;"RP2040";;;
+11;"C16,C15";"C_0805_2012Metric";2;"15p";;;
+12;"U2";"SOT-223-3_TabPin2";1;"NCP1117ST33T3G";;;
+13;"R4,R3";"C_0805_2012Metric";2;"1k";;;
