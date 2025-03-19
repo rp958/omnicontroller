@@ -2,9 +2,11 @@
 
 ## Description
 
-OmniController is an Open Hardware /  Open Source, all-in-one controller.
+*OmniController* is an Open Hardware /  Open Source, all-in-one controller.
 
 It was conceived with retrogaming solutions (such as emulators or FPGA) in mind but can accommodate to modern gaming as well. Its main goal is to cover original button layouts of most of the popular console controllers without having to remap buttons or use different controllers when playing games from different consoles libraries.
+
+It uses the [**GP2040-CE**](https://gp2040-ce.info/) firmware which is well known for its [compatibility](https://gp2040-ce.info/usage#input-modes) with most modern and retro platforms as well as its [very low latency](https://gp2040-ce.info/#performance).
 
 ![](images/front.jpg) ![](images/back.jpg) ![](images/usb.jpg)
 
@@ -20,9 +22,9 @@ Please note that the double L3 and R3 buttons (the ones on the joysticks and the
 ### Prerequisites
 
 Software:
-- PCB: [**KiCAD**](https://www.kicad.org/)
-- Case and buttons: [**FreeCAD**](https://www.freecad.org/)
 - Firmware: [**GP2040-CE**](https://gp2040-ce.info/)
+- (optional for modifying the PCB): [**KiCAD**](https://www.kicad.org/)
+- (optional for modifying the case and buttons): [**FreeCAD**](https://www.freecad.org/)
 
 Hardware:
 - 4x M2x4x3.2 threaded inserts
@@ -34,7 +36,9 @@ Hardware:
 
 ### Making the PCB
 
-Open the *omnicontroller* project file in KiCAD and export the gerber files to your preferred manufacturer format.
+Download and extract the latest [*OmniController* release](https://github.com/rp958/omnicontroller/releases) file.
+
+All the necessary files for PCB fabrication are located in *release/pcb/*.
 
 Bill of materials:
 
@@ -56,28 +60,28 @@ Bill of materials:
 
 ### 3D Printing the case and buttons
 
-You will need to print the following parts (all contained in the FreeCAD omnicontroller project).
+You will need to print the following parts (all contained in *release/case/*).
 
 Buttons:
 - [ ] 1x dpad_bottom
 - [ ] 1x dpad_top
 - [ ] 2x joystick
 - [ ] 2x button_select_start
-- [ ] 2x button_cred_menu
+- [ ] 2x button_cred_home
 - [ ] 4x button_L_R
 - [ ] 6x button_face 
 
 Case:
-- [ ] 1x case_bottom
-- [ ] 1x case_top
+- [ ] 1x case_back
+- [ ] 1x case_front
 - [ ] 1x middle_frame
 
-For better printing results, it is recommended the following pieces be sliced at an angle of 45 degrees and with supports:
+For better printing results, it is recommended the following parts be sliced at an angle of 45 degrees and with supports:
 - the joysticks
 - case_top
 - case_bottom
 
-The other parts should be printed flat and no support should be needed.
+All the other parts should be printed flat and do not require any support.
 
 Please note that depending on the quality and precision of your print, you might have to sand some parts.
 
@@ -142,11 +146,11 @@ Please [e-mail me](mailto:omnicontroller@proton.me) if you want to contribute, e
 
 ## Attributions
 
-OmniController uses the [SnapEDA Alps RKJXV122400R joystick footprint] (https://www.snapeda.com/parts/RKJXV122400R/ALPS/view-part/).
+OmniController uses the [SnapEDA Alps RKJXV122400R joystick footprint](https://www.snapeda.com/parts/RKJXV122400R/ALPS/view-part/).
 
 ## Acknowledgments
 
-Thanks to the [**GP2040-CE**](https://gp2040-ce.info/) development team.
+Many thanks go to the [**GP2040-CE**](https://gp2040-ce.info/) development team.
 
 ## Help
 
