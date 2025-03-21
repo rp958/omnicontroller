@@ -3456,7 +3456,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1.0\n"
+	(text "1.1.0"
 		(exclude_from_sim no)
 		(at 269.24 194.31 0)
 		(effects
@@ -3565,6 +3565,12 @@
 		(uuid "015ac6e8-79b0-453a-8ad9-403a65e425b4")
 	)
 	(junction
+		(at 187.96 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b6bdee2-fef8-4cbe-a8e2-758fb422a80a")
+	)
+	(junction
 		(at 120.65 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3653,12 +3659,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d22cdb9-c736-4399-b894-2b2f0a6f5935")
-	)
-	(junction
-		(at 204.47 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54a9f426-8e1f-41c9-9b62-562421b91eb0")
 	)
 	(junction
 		(at 191.77 160.02)
@@ -3877,12 +3877,6 @@
 		(uuid "ddbb5ed4-688a-4680-bf0a-9b372392ab45")
 	)
 	(junction
-		(at 187.96 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1a6fd8a-7973-4ba6-9697-8a8be9eb6fa0")
-	)
-	(junction
 		(at 219.71 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3917,6 +3911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece13d83-e97a-4afb-aa71-cc282cb63ec0")
+	)
+	(junction
+		(at 204.47 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3976ecc-01b1-4a39-9005-f594953f863b")
 	)
 	(no_connect
 		(at 114.3 172.72)
@@ -5286,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 115.57) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20c5c2d-5252-4e93-9f76-6a8a70f24bb6")
+	)
+	(wire
+		(pts
 			(xy 58.42 163.83) (xy 58.42 166.37)
 		)
 		(stroke
@@ -5413,16 +5423,6 @@
 			(type default)
 		)
 		(uuid "c32e7fd8-2124-46bc-b84f-00da4613e337")
-	)
-	(wire
-		(pts
-			(xy 204.47 115.57) (xy 214.63 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d4f500-095b-4214-858d-de87fb7c5e11")
 	)
 	(wire
 		(pts
@@ -5826,16 +5826,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 115.57) (xy 198.12 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22085b1-b4ae-4c8e-9615-d7d44f16742c")
-	)
-	(wire
-		(pts
 			(xy 165.1 116.84) (xy 166.37 116.84)
 		)
 		(stroke
@@ -5903,6 +5893,16 @@
 			(type default)
 		)
 		(uuid "fb4ca55e-fa82-4cdb-b9ca-56790230f926")
+	)
+	(wire
+		(pts
+			(xy 204.47 115.57) (xy 214.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb62690c-7512-4ddd-b55a-c967494bb125")
 	)
 	(wire
 		(pts
@@ -7919,7 +7919,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 190.5 153.67 90)
+			(at 204.978 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,6 +8099,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 187.96 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23f1a97a-4004-40e0-b493-b7c8e640fd22")
+		(property "Reference" "bL2"
+			(at 189.23 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_B3F-3100"
+			(at 176.53 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buttons:SW_B3F-3100"
+			(at 182.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 182.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3F-3100"
+			(at 185.166 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c46c8928-b3e3-4cb8-a522-4c7258b5c5ae")
+		)
+		(pin "1"
+			(uuid "924c55de-2361-4116-aeda-d358fd482a7f")
+		)
+		(instances
+			(project "omnicontroller"
+				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
+					(reference "bL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 74.93 0)
 		(unit 1)
@@ -8223,6 +8292,75 @@
 			(project "omnicontroller"
 				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 180.34 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254bb8ba-2bda-43e6-8e55-eeba9a8929a2")
+		(property "Reference" "bL1"
+			(at 181.61 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_B3F-3100"
+			(at 168.91 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buttons:SW_B3F-3100"
+			(at 175.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 175.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3F-3100"
+			(at 177.546 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9359040-775e-434c-9a76-92b2d64cd32b")
+		)
+		(pin "1"
+			(uuid "8b757602-a784-4b89-a454-a659ba65d57e")
+		)
+		(instances
+			(project "omnicontroller"
+				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
+					(reference "bL1")
 					(unit 1)
 				)
 			)
@@ -8494,74 +8632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 187.96 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bc81d43-ce22-458c-88d6-a419eb1a092a")
-		(property "Reference" "L2"
-			(at 189.23 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 176.53 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 182.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 182.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31bbb6f5-cb4d-446b-ac87-8308fee374f4")
-		)
-		(pin "1"
-			(uuid "b1bd7af5-1436-41fa-a463-5ba7407f7610")
-		)
-		(instances
-			(project "omnicontroller"
-				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 80.01 0)
 		(unit 1)
@@ -8754,74 +8824,6 @@
 			(project "omnicontroller"
 				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 204.47 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56a27845-b8d6-4eed-9381-c6b2d1223c94")
-		(property "Reference" "bR2"
-			(at 205.74 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 193.04 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 199.39 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 199.39 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "935efc3a-ab4e-46d5-8ab3-bed0529ed708")
-		)
-		(pin "1"
-			(uuid "d90bed96-e983-4d2c-8cab-0d8b6e7bacd3")
-		)
-		(instances
-			(project "omnicontroller"
-				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
-					(reference "bR2")
 					(unit 1)
 				)
 			)
@@ -9255,16 +9257,17 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS-1000P"
+		(property "Value" "SW_B3F-3100"
 			(at 186.69 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Buttons:SW_B3F-3100"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -9273,7 +9276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -9282,8 +9285,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 198.12 110.49 0)
+		(property "Description" "Omron B3F-3100"
+			(at 195.326 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9746,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 173.99 153.67 90)
+			(at 182.626 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +9814,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 203.2 119.38 90)
+			(at 211.836 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +9951,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 232.41 153.67 90)
+			(at 245.618 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +10088,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 180.34 153.67 90)
+			(at 189.484 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10220,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 243.84 153.67 90)
+			(at 257.048 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +10288,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 210.82 153.67 90)
+			(at 219.71 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,74 +10339,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 180.34 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ad85b64-e2d9-44c4-963e-e255aa39e5f0")
-		(property "Reference" "L1"
-			(at 181.61 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 175.26 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 175.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 175.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dae9e914-3bb2-4a9a-8a19-8a1e1f803614")
-		)
-		(pin "1"
-			(uuid "8ad4669b-b6af-4708-80a8-7a6b3631f1a5")
-		)
-		(instances
-			(project "omnicontroller"
-				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
 		(at 223.52 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10421,7 +10356,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 209.55 119.38 90)
+			(at 220.218 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,6 +11144,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 204.47 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c32b04df-980a-4730-ae7a-b3ff8e602d2a")
+		(property "Reference" "bR2"
+			(at 205.74 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_B3F-3100"
+			(at 206.502 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buttons:SW_B3F-3100"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3F-3100"
+			(at 201.676 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90f1085d-a42d-49f2-9f9e-a878f1b5ddce")
+		)
+		(pin "1"
+			(uuid "529e03a1-7c1c-450a-b8cb-98c7dec1c792")
+		)
+		(instances
+			(project "omnicontroller"
+				(path "/3d28817e-99b6-4a64-a76f-d15a6b7178c1"
+					(reference "bR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 105.41 110.49 90)
 		(unit 1)
@@ -11362,7 +11366,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 219.71 153.67 90)
+			(at 228.6 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11434,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 226.06 153.67 90)
+			(at 239.268 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11636,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 248.92 153.67 90)
+			(at 262.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11837,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 238.76 153.67 90)
+			(at 251.714 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +11974,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 204.47 153.67 90)
+			(at 213.36 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +12211,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS-1000P"
-			(at 195.58 153.67 90)
+			(at 199.136 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
