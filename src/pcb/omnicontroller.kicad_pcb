@@ -1138,7 +1138,7 @@
 			(uuid "c1fc1730-c2ea-44e2-a7da-7c39e886e383")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1146,7 +1146,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1685,7 +1685,7 @@
 			(uuid "42bca72c-c740-45b4-b102-65ffabdc0c78")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1693,7 +1693,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -2643,7 +2643,7 @@
 			(uuid "94735e8b-f07b-423c-9154-e64beac48245")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2651,7 +2651,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -2991,7 +2991,7 @@
 			(uuid "0d663c2f-e309-42b0-8519-81738e6487bb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2999,7 +2999,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3339,7 +3339,7 @@
 			(uuid "18671e15-4b79-4539-aec4-1afa6f141a0f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3347,7 +3347,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3982,7 +3982,7 @@
 			(uuid "25b5eccd-9fda-4024-853e-49401c6ddae2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3990,7 +3990,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4492,6 +4492,17 @@
 			(uuid "7994b806-a6df-4b5f-8c0f-5399ca24ddb6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3F-3100--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 -2.2 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 		(layer "F.Cu")
@@ -5268,7 +5279,7 @@
 			(uuid "c2548832-99be-4956-b8b2-906cd51efd84")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5276,7 +5287,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -7018,7 +7029,7 @@
 			(uuid "861ec1d5-34d4-4182-b636-e5d04ec0ac34")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7026,7 +7037,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -7963,7 +7974,7 @@
 			(uuid "2e16c82e-3769-4c5d-8d45-ed8225d92a69")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7971,7 +7982,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10334,7 +10345,7 @@
 			(uuid "d61795dc-f106-4672-bc37-130240389817")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10342,7 +10353,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11144,7 +11155,7 @@
 			(uuid "d6e54226-294f-4bee-8101-f3ce7039625a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11152,7 +11163,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11492,7 +11503,7 @@
 			(uuid "0fe1587a-c657-430f-a03d-5081dc5efb85")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11500,7 +11511,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13621,6 +13632,17 @@
 			(uuid "0116efef-d657-4a30-896d-26458e9e56e0")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3F-3100--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 -2.2 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 		(layer "F.Cu")
@@ -13958,7 +13980,7 @@
 			(uuid "0d4607af-7e92-4cc3-ba2b-2d63778085c8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13966,7 +13988,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15095,7 +15117,7 @@
 			(uuid "96225f91-959c-4705-8288-36dd3cbcc683")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15103,7 +15125,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16650,7 +16672,7 @@
 			(uuid "c6dfda57-54bb-40f0-9ced-d888465d05cf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_Omron_B3FS-100xP.wrl"
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3FS-1000--3DModel-STEP-273799.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16658,7 +16680,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16965,6 +16987,17 @@
 			(uuid "6d5b569d-3a4d-4f23-b541-b3061b197376")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3F-3100--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 -2.2 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Buttons:SW_B3F-3100"
 		(layer "B.Cu")
@@ -17269,6 +17302,17 @@
 			(uuid "3172c7e2-39ab-462c-a429-93742073ccf8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/Buttons.pretty/B3F-3100--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 -2.2 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_USB:USB_A_Receptacle_GCT_USB1046"
 		(layer "B.Cu")
@@ -17698,15 +17742,15 @@
 			(uuid "19c36235-5fff-47db-8303-c8dc39c67434")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Receptacle_GCT_USB1046.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_TE_292303-7_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.6 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17879,6 +17923,90 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "GP14"
+		(at 100 87 0)
+		(layer "B.SilkS")
+		(uuid "5b836aed-618a-49b8-a2a7-c3a6fee72e67")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+3.3V"
+		(at 95 87 0)
+		(layer "B.SilkS")
+		(uuid "62e26f97-d9cf-4d47-9f5a-51e12dd18912")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+5V"
+		(at 92 87 0)
+		(layer "B.SilkS")
+		(uuid "6384e800-8ca9-4a7c-b11e-f373819af4ea")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 107.3 87 0)
+		(layer "B.SilkS")
+		(uuid "6a7454b7-a0d7-4f67-81e4-83204595719c")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GP00"
+		(at 105 87 0)
+		(layer "B.SilkS")
+		(uuid "8374cca4-2bef-4fc4-94e7-118d61ae586a")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GP15"
+		(at 97.5 87 0)
+		(layer "B.SilkS")
+		(uuid "b988197b-fea6-43d4-92f8-0889061555a3")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GP01"
+		(at 102.5 87 0)
+		(layer "B.SilkS")
+		(uuid "fae35eee-4588-4ff6-830e-7cad3333e4d3")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
