@@ -11914,7 +11914,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_A"
+		(property "Value" "USB1046-GF-0190-L-B"
 			(at 190.5 19.05 0)
 			(effects
 				(font
@@ -11931,7 +11931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5335/USB1046_Spec.pdf"
+		(property "Datasheet" "https://gct.co/connector/usb1046"
 			(at 194.31 30.48 0)
 			(effects
 				(font
@@ -11940,7 +11940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type A connector"
+		(property "Description" "USB Type A connector GCT USB1046-GF-0190-L-B"
 			(at 190.5 29.21 0)
 			(effects
 				(font
