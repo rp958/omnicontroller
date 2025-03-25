@@ -551,7 +551,7 @@
       "plot": "../../release/pcb/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../case/pcb.stl",
       "svg": "",
       "vrml": ""
     },
